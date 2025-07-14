@@ -1,0 +1,55 @@
+h2{
+    color: blueviolet;
+}
+
+/* body {
+    background-color: cadetblue;
+} */
+
+/* body{
+    background-color: rgb(255, 255, 0);
+} */
+
+body{
+    background-color: #ff0000;
+    background-color: #00ff00;
+    background-color: #0000ff;
+}
+body{
+    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 0,255);
+    background-color: #ffff00;
+}
+
+/* Selectors are 4 type
+1. Universal selector *{}
+2. Elemnt selector h1 p div {}
+3. id selctor -> unick name  #idname {}
+4. class selector .classname {} */
+
+#my-id1{
+    background-color: white;
+    color: cadetblue;
+}
+#my-id2{
+    background-color: white;
+    color: brown;
+}
+#my-id3{
+    background-color: white;
+    color: black;
+}
+#my-id4{
+    background-color: white;
+    color: #00ff00;
+}
+.my-id4{
+    background-color: aqua;
+    color: brown;
+}
+
+.pera1{
+    background-color: white;
+    color: chocolate;
+}
