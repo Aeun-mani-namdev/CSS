@@ -1,0 +1,29 @@
+ 
+ /* set the font family of all the content in the document to "Time New Roman."
+  */
+  *{
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+ /* Create a heading centred on the page with all of its text capitalized by default. */
+#head-1{
+    text-align: center;
+    text-decoration: overline;
+    /* font-weight: 400;
+    font-family: arial;
+    font-style: normal;
+    font-size: 50px; */
+    text-transform: capitalize;
+    
+}
+
+/* Create one div inside another div .
+set id & "outer" for the first one & "inner" for the second one.
+set the outer div text size to 25px & inner div text size to 10px  */
+
+#div-1{
+    font-size: 20px;
+}
+#div-2{
+    font-size: 10px;
+}

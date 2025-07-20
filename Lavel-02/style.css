@@ -1,0 +1,67 @@
+/* Text  Properties
+text -align : text-alin : left/right/center
+*/
+/* p{
+    text-align: left;
+} */
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+/* p{
+    text-align: right;
+}
+p{
+    text-align: left;
+} */
+p{
+    text-align: center;
+}
+#ancher-one{text-decoration: none;
+}
+    
+
+
+h2{
+    /* font-weight: bold; */
+    font-weight: 100;
+}
+h3{
+    /* font-weight: bolder; */
+    font-weight: 250;
+}
+h4{
+    /* font-weight: normal; */
+    font-weight: 600;
+}
+h5{
+    /* font-weight: normal; */
+    font-weight: 900;
+}
+
+#one{
+    font-family: arial;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Unit in two type in css 
+1. Absulat unit 
+2. relative units */
+
+/* In CSS, absolute units specify fixed, unchanging sizes, while relative units adjust their size based on other elements or the viewport. Absolute units like pixels (px), centimeters (cm), or inches (in) are good for print or when precise sizing is needed, while relative units like percentages (%), ems (em), or rems (rem) are better for responsive design that adapts to different screen sizes. . 
+ */
+#pera-1{
+    font-size: 5px;
+}
+
+#pera-2{
+    font-size: 10px;
+}
+
+#pera-3{
+    font-size: 20;
+    line-height: 50px;
+    /* line-height: normal; */
+    text-transform: uppercase;
+    
+}
