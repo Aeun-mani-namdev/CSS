@@ -1,0 +1,61 @@
+/* #box-1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+} */
+/* #box-2{
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+     font-size: 2em;   /* 2 time of parent's font size  */ /*
+} */
+
+/* Em em Font size of the parent inthe case of type typographical propertues lik font -size and font size of the element itself in the case of other properties like width. */
+
+/* Rem rem (root Em) font size of the root element */
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#box-1{
+    position: static;
+    top: 25px;
+}
+
+#box-2{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+#box-3{
+    position: absolute;
+    top: 500px;
+    left:20px
+}
+
+#box-4{
+    position:fixed;
+    color: aliceblue;
+    /* right: 20px;
+    bottom: 20px;
+    width: 100vw;
+    text-align: center; */
+    top: 0px;
+}
+
+#box-5{
+    position: sticky;
+    top: 0px;
+    left: 300px;
+}
+
+
+/* position An Z index properti's */

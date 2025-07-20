@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#box-1{
+    background-image: url(red-zeppelin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* background img
+background-size 1cover, 2 content, 3auto */

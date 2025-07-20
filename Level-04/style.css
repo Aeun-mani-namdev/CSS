@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+inline - Takes only the space required by the element .(no margin / padding)
+block - Takes full space available in width.
+inline - block - similar to inline but we can set margin & padding.
+none - To remove element from document flow
+
+
+*/
+/* 
+div{
+    display: inline;
+}
+
+button{
+    display: block;
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box-2{
+    display: none;
+}
+
+/* Note -> When visibility is not none space for the element is reserved 
+but for display set to none  no space is reserved or blocked for the element. */
+
+/* RGBA
+  color:rgba(255,0,0,0.5)
+  color:rgba(255,0,0,1)
+RGBA */
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0, 0.5);
+}
+.box-2{
+   height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0, 1); 
+}
