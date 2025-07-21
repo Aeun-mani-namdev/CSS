@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.container{
+    width: 690px;
+    height: 200px;
+    display: flex;
+
+    /* flex-direction: row; 
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center; */
+
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+}
+/* align-content: alignment of space between & around the content along cross-axis */
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: pink;
+}
+
+.box3{
+    background-color: goldenrod;
+}
+
+.box4{
+    background-color: brown;
+}
+
+.box5{
+    background-color:blue;
+}
