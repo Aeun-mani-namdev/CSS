@@ -1,0 +1,34 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+.outer-div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/*align- self: align self ki jada preorty hoti hai as compare align-items */

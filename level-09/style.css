@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+    transition: all;
+    transition: 2s;
+    transition-timing-function: steps(10);
+    transition-delay: 5s;
+    
+}
+
+div:hover{
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+div:active{
+    background-color: pink;
+    color: darkcyan;
+}
+
+/* Transation 
+transation enable you to define the transition between two states of an element
+transition-property: property you want to transition (font-size, width etc.)
+transition-duration: 2s / 4ms ..
+transition-timing-function: ease-in / ease-out/ inner/ step ..
+transition-delay: 2s/ 4ms 
+*/
