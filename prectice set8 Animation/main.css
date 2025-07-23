@@ -1,0 +1,29 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border: 20px solid #170A1C;
+    border-bottom: 20px solid #0B7189;
+    border-radius: 50%;
+    border-left: 20px solid #9C95DC ;
+    border-right:20px solid #228CDB;
+    background-color: pink;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: x-large;
+    animation: spinAnimation 8s steps(4) 5s 10 normal;
+}
+
+@keyframes spinAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
