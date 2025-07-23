@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: relative;
+    top:100px;
+    left: 100px;
+
+    animation-name:colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: steps(5);
+    animation-delay: 5s;
+    animation-iteration-count:2 ;
+}
+
+@keyframes colorAnimate {
+    from{
+        background-color: aqua;
+    }
+    to {
+        background-color: red;
+    }
+}
+div:hover{
+
+}
